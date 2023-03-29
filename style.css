@@ -1,0 +1,170 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color:hsla(0, 0%, 100%, 0.75);
+  display: flex;
+  height: 100vh;
+  width: 1440;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: auto;
+  font-family: "Big Shoulders Display", cursive;
+  font-family: "Lexend Deca", sans-serif;
+}
+.cards {
+  height: 545px;
+  width: 999px;
+  display: flex;
+  justify-content: center;
+
+  grid-template-columns: auto;
+  background-color: rgba(255, 255, 255, 0);
+}
+.card_1 {
+  background-color: hsl(31, 77%, 52%);
+  max-width: 333px;
+  max-height: 545px;
+  min-width: 333px;
+  min-height: 545px;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+}
+.card_1 .img_1 {
+  padding: 60px 0px 0px 55px;
+}
+.card_1 h2 {
+  padding: 29px 0px 0px 55px;
+  color: hsla(0, 0%, 100%, 0.75);
+  font-family: "Big Shoulders Display";
+  font-size: 45px;
+}
+.card_1 p {
+  color: hsla(0, 0%, 100%, 0.75);
+  padding: 29px 60px 0px 55px;
+  font-size: 16px;
+  line-height: 1.6;
+  font-family: "Lexend Deca";
+}
+.button_1 {
+  background-color: hsl(0, 0%, 95%);
+  color: hsl(31, 77%, 52%);
+  border-color: hsla(0, 0%, 100%, 0.75);
+  padding: 16px 31px;
+  margin: 90px 0px 0px 51px;
+  border-radius: 30px;
+  font-size: 17px;
+  font-family: "Lexend Deca";
+  font-weight: 400;
+  border: 1px solid hsla(0, 0%, 100%, 0.75);
+}
+.button_1:hover {
+  background-color: rgba(0, 0, 0, 0);
+  color: hsl(0, 0%, 95%);
+}    
+.card_2 {
+  background-color: hsl(184, 100%, 22%);
+  max-width: 333px;
+  max-height: 545px;
+  min-width: 333px;
+  min-height: 545px;
+}
+.card_2 .img_2 {
+  padding: 60px 0px 0px 55px;
+}
+.card_2 h2 {
+  padding: 29px 0px 0px 55px;
+  color: hsla(0, 0%, 100%, 0.75);
+  font-family: "Big Shoulders Display";
+  font-size: 45px;
+}
+.card_2 p {
+  color: hsla(0, 0%, 100%, 0.75);
+  padding: 29px 44px 0px 55px;
+  max-height: 128px;
+  font-size: 17px;
+  line-height: 1.5;
+  font-family: "Lexend Deca";
+}
+.button_3 {
+  background-color: hsl(0, 0%, 95%);
+  color: hsl(184, 100%, 22%);
+  border-color: hsla(0, 0%, 100%, 0.75);
+  padding: 16px 31px;
+  margin: 90px 0px 0px 53px;
+  border-radius: 30px;
+  font-size: 17px;
+  font-family: "Lexend Deca";
+  font-weight: 400;
+  border: 1px solid hsla(0, 0%, 100%, 0.75);
+}
+.button_3:hover {
+  background-color: rgba(0, 0, 0, 0);
+  color: hsl(0, 0%, 95%);
+}
+.card_3 {
+  background-color: hsl(179, 100%, 13%);
+  max-width: 333px;
+  max-height: 545px;
+  min-width: 333px;
+  min-height: 545px;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.card_3 .img_3 {
+  padding: 60px 0px 0px 55px;
+}
+.card_3 h2 {
+  padding: 29px 0px 0px 55px;
+  color: hsla(0, 0%, 100%, 0.75);
+  font-family: "Big Shoulders Display";
+  font-size: 45px;
+}
+.card_3 p {
+  color: hsla(0, 0%, 100%, 0.75);
+  padding: 29px 44px 0px 55px;
+  font-size: 16px;
+  line-height: 1.6;
+  font-family: "Lexend Deca";
+}
+.button_5 {
+  background-color: hsl(0, 0%, 95%);
+  color: hsl(179, 100%, 13%);
+  border-color: hsla(0, 0%, 100%, 0.75);
+  padding: 16px 31px;
+  margin: 90px 0px 0px 52px;
+  border-radius: 30px;
+  font-size: 17px;
+  font-family: "Lexend Deca";
+  font-weight: 400;
+  border: 1px solid hsla(0, 0%, 100%, 0.75);
+}
+.button_5:hover {
+  background-color: rgba(0, 0, 0, 0);
+  color: hsl(0, 0%, 95%);
+}
+@media (max-width:999px){
+body{
+
+}
+  .cards{
+  flex-direction: column;
+  align-items: center;
+  
+}
+.card_1{
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+.card_3{
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-top-right-radius: 0px;
+  border-top-left-radius: 0px;
+}
+
+
+}
